@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi_Pankhaniya-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ff91457990.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi, I'm <span>Ravi Pankhaniya</span><br> from Gujarat,India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ravi2.png" alt="" class="imgs">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">:) About Me:</h1>
+                    <p class="aboutme">I am Honest and Dedicated Person. My Short Term Goal is To Get Job In Reputed Company and Whenever I Improve My Skill  And Knowledge I want To Get Good Position In Software Development Field. Also Whenever I improve my skills I am ready to hardwork and give my 100% in it.<br><b>As a Software Engineer I use my creativity and technical skills and apply the principles of software engineering to help solve new and ongoing problems for an organization.</b></p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Operating System</span><br>Windows , Linux , Ubuntu</li>
+                            <li><span>Data Structures and Algorithms</span><br>Advance Data Structure , Problem Solving
+                                Skills</li>
+                            <li><span>Frontend Developer</span><br>HTML , CSS , JavaScript , React.js , Bootstrap</li>
+                            <li><span>Backend Developer</span><br>Express.js , Node.js , Anguler.js</li>
+                            <li><span>Database Management System</span><br>MongoDB , MySQL</li>
+                            <li><span>Other Skills</span><br>Computer Network , Android Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sept-2022 -- Oct-2022</span><br>Designing Web/App Interfaces Training at Edureka
+                            </li>
+                            <li><span>Oct-2022 -- Nov-2022</span><br>Web App Development Internship at Edyoda</li>
+                            <li><span>Dec-2022 -- Current</span><br>MERN-MEAN Web/App Developer Internship
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Jun-2016 -- Apr-2017</span><br>SSC-10th at Shree Vivekanand Vinay
+                                Mandir-Porbandar,Gujarat</li>
+                            <li><span>Jun-2018 -- Apr-2019</span><br>HSC-12th at Alpha Vidhya Sankul-Junagadh,Gujarat
+                            </li>
+                            <li><span>Jul-2019 -- Current</span><br>BE(CSE) at The Maharaja Sayajirao University of
+                                Baroda , Vadodara,Gujarat</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub=title">:) My Services:</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Analyst</h2>
+                    <p>A data analyst reviews data to identify key insights into a business's customers and ways the data can be used to solve problems. I also communicate this information to company leadership and other stakeholders.</p>
+                    <a href="https://www.google.com" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Full Stack Developer</h2>
+                    <p>A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)</p>
+                    <a href="https://www.google.com" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Android Developer</h2>
+                    <p>Android software development is the process by which applications are created for devices running the Android operating system. Google states that "Android apps can be written using Kotlin, Java, and C++ languages" using the Android software development kit, while using other languages is also possible.</p>
+                    <a href="https://www.google.com" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">:) My Work:</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/texturils.png" alt="">
+                    <div class="layer">
+                        <h3>React-TextUtils</h3>
+                        <p>
+                            You can Do many operations on your text like convert to Uppercase, Convert Lowercase,Clear Text and Remove Your Extra space between Text,Copy Your Text etc.... also You can do Dark mode , Light Mode your Webpage on Laptop</p>
+                        <a href="https://ravi906770.github.io/TextUtils/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/weather.png" alt="">
+                    <div class="layer">
+                        <h3>Real Time Weather-App</h3>
+                        <p>It Will Show You the Current Time Temparature And Weather Of Your City... It is Responsive And Easy To Useful For You.
+                            In this Project I am Using the Fetch API Using Weather API..This Data Will come from Weather API key and Give the Real Time Data...</p>
+                        <a href="https://weather-app-ravi906770.herokuapp.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/netflix.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix-Clone</h3>
+                        <p>This Website is like Netflix feature.. In this clone you get different movies, webseries, shows, and much more.. it is also responsive MERN website.. You can sign in , Sign out, Log in etc....  <br><b>Everything is OK.Deployment Pending</b></p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/booking2.png" alt="">
+                    <div class="layer">
+                        <h3>Hotel Booking Management</h3>
+                        <p>In this website you can book your favourite hotel in India's mega city Hotels online.. we have different types of hotels. same you can login and sign in ..<br><b>Everything is OK. Deployment Pending</b> </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">:) Contact Me:</h1>
+                    <p><i class="fa-regular fa-envelope"></i>pankhaniyaravi05@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91 9067708518</p>
+                    <div class="social-icons">
+                       <a href="https://www.facebook.com/ravi.pankhaniya.7165" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                       <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                       <a href="https://www.linkedin.com/in/ravi-a-pankhaniya-5459a722a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                       <a href="https://www.instagram.com/ravi_pankhaniya_0402/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="leet"><i class="fa-solid fa-up-right-from-square links"></i>LeetCode</a>
+                        <a href="#" class="leet"><i class="fa-solid fa-up-right-from-square links"></i>GeeksForGeeks</a>
+                    </div>
+                    <a href="#" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email">
+                        <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Ravi. Created By <i class="fa-solid fa-heart"></i>@Ravi_Pankhaniya </p>
+        </div>
+    </div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link")
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab")
+                }
+
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyoeHgZIvfW0fs_9vs0sYP_3KeInjd2yEmuOtgr-KmNaUUkqtxdnd0ZUYgna7LtIrhK/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Thank You! I will Contact You Very Soon....." , setTimeout(() => {
+            msg.innerHTML=""
+        }, 5000) , form.reset()})
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
